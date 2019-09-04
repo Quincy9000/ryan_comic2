@@ -3,14 +3,16 @@ body
     width: auto;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: gray;
+    background-color: rgb(37, 37, 37);
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 p
 {
-    border: white 5px solid;    
-    background-color: white;
+    color: white;
+    border: rgb(26, 24, 24) 5px solid;    
+    background-color: black;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     margin-left: 20px;
@@ -82,7 +84,7 @@ a
 
 .introimg
 {
-    margin: 10px 10px 10px 10px;
+    margin-top: 50px;
     height: 20%;;
     display: block;
     float: left;
@@ -101,8 +103,8 @@ a
 
 .imgGrid
 {
-    background-color: white;
-    border: white 5px solid;
+    background-color: gray;
+    border: rgb(26, 24, 24) 5px solid;
     border-radius: 20px;
     box-shadow: 6px 6px 6px black;
     display: flex;
